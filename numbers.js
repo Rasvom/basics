@@ -1,0 +1,22 @@
+let age = 23;
+let birthYear = 2000;
+let birthNumber = 23;
+let numberOfBrother = 1;
+let numberOfSisters = 1;
+let numberOfPeopleInFamily = 5;
+let fare = 33;
+let actualYear = 2023;
+let dollarExchangeRate = 79;
+let euroExchangeRate = 85;
+let bitcoinExchangeRate = 2164897;
+
+let actualYearMinusBirthNumber = actualYear - birthYear;
+let actualYearMinusAge = actualYear - age;
+let currentSitersBrothers = numberOfBrother + numberOfSisters;
+let euroExchangeRateMultiply = euroExchangeRate * 1000;
+let dollarExchangeRateMultiply = dollarExchangeRate * 2.5;
+let bitcoinExchangeRateDivide = bitcoinExchangeRate / 10000;
+let fareDivedeDollar = fare / dollarExchangeRate;
+let currentFamilyMinusSisters = numberOfPeopleInFamily - numberOfBrother - numberOfSisters;
+let ageDivideZero = 0 / age;
+let ageMinusThirtyFive = 35 - age;
